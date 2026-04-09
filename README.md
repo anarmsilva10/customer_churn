@@ -25,6 +25,12 @@ The main objective of ths project is to **develop a machine learning model** tha
 
 The final goal is to identify customers who are at risk of leaving so the company can implement retention strategies.
 
+## Machine Learning Models
+In order to achieve this goal, various machine learning models must be studied. Therefore, given the nature of the problem, it was decided to train the following models:
+1. Logistic Regression
+2. Random Forest 
+3. XGBoost
+4. Support Vector Machine (SVM)
 
 ## Developers
 Ana Rita Silva,  anar.m.silva10@gmail.com
