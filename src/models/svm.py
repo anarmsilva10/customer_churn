@@ -1,5 +1,5 @@
 from src.data.load_data import load_data
-from src.data.split_dataset import split_dataset
+from src.data.models import split_dataset
 
 df = load_data('data/processed/telco_clean.csv')
 
