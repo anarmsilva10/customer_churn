@@ -45,7 +45,7 @@ def encode_categorical(df, drop_first=True):
     """
 
     categorical_columns = [
-        col for col in df.select_dtypes(include='object').columns
+        col for col in df.select_dtypes(include=['object', 'category']).columns
         if df[col].nunique() > 2
     ]
 
